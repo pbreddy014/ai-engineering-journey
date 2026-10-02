@@ -19,20 +19,28 @@ margin_ranking = sales.sort_values(
     ascending=False
 )
 
-plt.bar(
-    profit_ranking["Product"],
-    profit_ranking["Profit"]
+numeric_columns = sales[
+    [
+        "Units",
+        "Price",
+        "Cost",
+        "Revenue",
+        "Total_Cost",
+        "Profit",
+        "Profit_Margin"
+    ]
+]
+
+correlation_matrix = numeric_columns.corr()
+
+plt.figure()
+
+plt.boxplot(
+    sales["Profit"]
 )
 
-plt.title("Profit by Product")
-plt.xlabel("Product")
+plt.title("Profit Box Plot")
 plt.ylabel("Profit")
 
-plt.xticks(rotation=45)
 plt.tight_layout()
-
-plt.savefig(
-    "day-17-profit-by-product.png"
-)
-
 plt.show()
