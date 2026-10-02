@@ -1,0 +1,9 @@
+Product,Region,Units_Sold,Unit_Price,Unit_Cost,Revenue,Total_Cost,Profit,Profit_Margin,Revenue_Category,Profitable,Sales_Volume_Category,Cost_Percentage
+Laptop,India,10,1200,800,12000,8000,4000,33.33333333333333,High,True,Low,66.66666666666666
+Monitor,USA,20,400,250,8000,5000,3000,37.5,Medium,True,Medium,62.5
+Keyboard,India,50,80,40,4000,2000,2000,50.0,Low,True,High,50.0
+Mouse,UK,100,25,10,2500,1000,1500,60.0,Low,True,High,40.0
+Headset,USA,30,60,30,1800,900,900,50.0,Low,True,Medium,50.0
+Webcam,India,25,100,60,2500,1500,1000,40.0,Low,True,Medium,60.0
+Printer,UK,15,300,200,4500,3000,1500,33.33333333333333,Low,True,Low,66.66666666666666
+Tablet,India,12,500,350,6000,4200,1800,30.0,Medium,True,Low,70.0
