@@ -1,0 +1,9 @@
+Product,Units,Price,Cost,Region,Revenue,Total_Cost,Profit,Profit_Margin,Profit_Category
+Laptop,10,1200,800,India,12000,8000,4000,33.33333333333333,Medium
+Monitor,20,400,250,USA,8000,5000,3000,37.5,Medium
+Keyboard,50,80,40,India,4000,2000,2000,50.0,Medium
+Mouse,100,25,10,UK,2500,1000,1500,60.0,Low
+Headset,30,60,30,USA,1800,900,900,50.0,Low
+Webcam,25,100,60,India,2500,1500,1000,40.0,Low
+Printer,15,300,200,UK,4500,3000,1500,33.33333333333333,Low
+Tablet,12,500,350,India,6000,4200,1800,30.0,Low
